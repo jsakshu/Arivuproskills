@@ -1,0 +1,35 @@
+# 🔁 Python `while` Loop – Introduction for Beginners
+
+## 📘 What is a `while` Loop?
+
+A `while` loop is used to **repeat a block of code** as long as a specified condition is `True`.
+
+---
+
+## 🔧 Syntax
+
+```python
+while condition:
+    # code block to execute
+
+
+The condition is checked before the loop body runs.
+
+The code block will keep repeating until the condition becomes False.
+
+
+
+Make sure the loop eventually stops by changing the condition inside the loop.
+
+Otherwise, it may result in an infinite loop.
+
+
+
+###Example 1: Print "Hello" 5 times
+
+count = 1
+while count <= 5:
+    print("Hello")
+    count += 1
+
+
